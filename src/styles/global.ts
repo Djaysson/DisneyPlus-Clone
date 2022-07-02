@@ -2,15 +2,15 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
 :root{
-  --white: #E9E8E6;
-  --white-02:#FFFFFF;
-  --black:#161B20;
+  --white: #FFFFFF;
+  --light-blue:#FFFFFF;
+  --dark-blue:#090b13;
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:Arial, sans-serif;
+  font-family: 'Montserrat',Arial, sans-serif;
 }
 html{ 
   @media(max-width:1080px){
@@ -20,8 +20,8 @@ html{
     font-size:87.5%; //14px
   }    
 }  
-body {
+body { 
   width: 100%;
-
+color: var(--white);
 }
 `;
