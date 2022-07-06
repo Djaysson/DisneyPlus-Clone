@@ -3,7 +3,7 @@ import { createGlobalStyle } from "styled-components";
 export const GlobalStyle = createGlobalStyle`
 :root{
   --white: #FFFFFF;
-  --light-blue:#FFFFFF;
+  --light-blue:#040615;
   --dark-blue:#090b13;
 }
 * {
@@ -23,5 +23,6 @@ html{
 body { 
   width: 100%;
 color: var(--white);
+background:var(--light-blue) ;
 }
 `;
