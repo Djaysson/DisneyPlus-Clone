@@ -1,5 +1,7 @@
 import imageOne from "../../assets/images/slider-badag.jpg";
 import imageTwo from "../../assets/images/slider-badging.jpg";
+import imageThree from "../../assets/images/slider-scale.jpg";
+import imageFour from "../../assets/images/slider-scales.jpg";
 import { Carousel, CarouselItem } from "./styles";
 
 export function ImgSlider() {
@@ -14,10 +16,16 @@ export function ImgSlider() {
   return (
     <Carousel {...settings}>
       <CarouselItem>
-        <img src={imageOne} alt="" />
+        <img src={imageOne} alt="First image of the carousel" />
       </CarouselItem>
       <CarouselItem>
-        <img src={imageTwo} alt="" />
+        <img src={imageTwo} alt="Second image of the carousel" />
+      </CarouselItem>
+      <CarouselItem>
+        <img src={imageThree} alt="Third image of the carousel" />
+      </CarouselItem>
+      <CarouselItem>
+        <img src={imageFour} alt="Fourth image of the carousel" />
       </CarouselItem>
     </Carousel>
   );
