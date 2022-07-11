@@ -1,4 +1,5 @@
 import { ImgSlider } from "../../components/ImgSlider";
+import { Movies } from "../../components/Movies";
 import { ViewersCard } from "../../components/ViewersCard";
 import { Container } from "./styles";
 
@@ -7,6 +8,7 @@ export function Home() {
     <Container>
       <ImgSlider />
       <ViewersCard />
+      <Movies />
     </Container>
   );
 }
