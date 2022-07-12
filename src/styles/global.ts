@@ -2,9 +2,12 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
 :root{
-  --white: #FFFFFF;
+  --white: #f9f9f9;
   --light-blue:#040615;
   --dark-blue:#090b13;
+  --grey:#c6c6c6;
+  --black:#000000;
+  --transparent-black:#0000004d;
 }
 * {
   margin: 0;
