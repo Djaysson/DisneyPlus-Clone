@@ -1,8 +1,17 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
+/* Color Scheme Nomenclature 
+ex: {--color-intensity}
+intensity = {
+  light= 100
+  dark=900
+}
+*/
 :root{
   --white: #f9f9f9;
+  --blue-100:#0063e5;
+  --blue-300:#0483ee;
   --light-blue:#040615;
   --dark-blue:#090b13;
   --grey:#c6c6c6;
