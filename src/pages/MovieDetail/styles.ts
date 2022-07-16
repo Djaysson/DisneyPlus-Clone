@@ -25,7 +25,7 @@ export const ImageTitle = styled.div`
   min-height: 170px;
   width: 35vw;
   min-width: 200px;
-  margin: 40px 0;
+  margin: 40px 0 20px;
 
   img {
     width: 100%;
@@ -90,4 +90,5 @@ export const Description = styled.div`
   font-size: 1.3rem;
   margin-top: 16px;
   color: var(--white);
+  max-width: 38rem;
 `;

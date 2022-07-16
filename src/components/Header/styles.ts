@@ -2,10 +2,11 @@ import styled from "styled-components";
 
 export const Nav = styled.nav`
   height: 70px;
-  background: var(--dark-blue);
+  background: var(--blue-800);
   display: flex;
   align-items: center;
   padding: 0 36px;
+  overflow-x: hidden;
 `;
 export const Logo = styled.img`
   width: 5rem;

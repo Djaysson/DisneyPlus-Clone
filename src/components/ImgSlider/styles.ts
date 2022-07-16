@@ -8,7 +8,7 @@ export const Carousel = styled(Slider)`
   ul li button {
     &:before {
       font-size: 10px;
-      color: rgb(150, 150, 171);
+      color: var(--gray-400);
     }
   }
 
@@ -35,7 +35,7 @@ export const CarouselItem = styled.div`
     border: 1px solid transparent;
     transition-duration: 300ms;
     &:hover {
-      border: 4px solid rgba(249, 249, 249, 0.8);
+      border: 4px solid var(--transparent-white-200);
     }
   }
 `;

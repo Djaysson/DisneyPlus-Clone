@@ -10,11 +10,14 @@ intensity = {
 */
 :root{
   --white: #f9f9f9;
+  --transparent-white-200:#f9f9f9cc;
+  --transparent-white:#f9f9f91a;
   --blue-100:#0063e5;
   --blue-300:#0483ee;
-  --light-blue:#040615;
-  --dark-blue:#090b13;
+  --blue-600:#040615;
+  --blue-800:#090b13;
   --grey:#c6c6c6;
+  --gray-400: #9696ab;
   --black:#000000;
   --transparent-black:#0000004d;
 }
@@ -35,6 +38,6 @@ html{
 body { 
   width: 100%;
 color: var(--white);
-background:var(--light-blue) ;
+background:var(--blue-600) ;
 }
 `;
